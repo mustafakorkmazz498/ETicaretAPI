@@ -13,8 +13,5 @@ namespace ETicaretAPI.Infrastructure.Services
     public class FileService
     {
         readonly IWebHostEnvironment _webHostEnvironment;
-
-
-        
     }
 }
