@@ -14,5 +14,6 @@ namespace ETicaretAPI.Domain.Entities
         public float Price { get; set; }
         public ICollection<Order> Orders { get; set; }
         public ICollection<ProductImagesFile> ProductImagesFiles { get; set; }
+        public ICollection<BasketItem> BasketItems { get; set; }
     }
 }
